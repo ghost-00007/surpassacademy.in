@@ -1,0 +1,1028 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Surpass</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "h7EuN3UJN8A7-o32L",
+            });
+        })();
+    </script>
+
+    <script src="script.js"></script>
+
+    <!-- Query and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/templatemo-tale-seo-agency.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body style="background-color: white;">
+
+
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/9363097405" target="_blank" id="whatsapp-chat-button">
+        <img src="img/whatsapp.png" alt="Chat with us on WhatsApp" />&nbsp;&nbsp;Chat with us
+    </a>
+
+
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+        <a class="navbar-brand" href="#">
+            <img src="img/wordmark2.png" alt="Logo" style="height: 30px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" onclick="home()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" onclick="aws()">AWS Cloud</a></li>
+                        <li><a class="dropdown-item" onclick="ds()">Data Science</a></li>
+                        <li><a class="dropdown-item" onclick="uiux()">UI/UX</a></li>
+                        <li><a class="dropdown-item" onclick="EthicalHacking()">Ethical Hacking</a></li>
+                        <li><a class="dropdown-item" onclick="ccna()">CCNA</a></li>
+                        <li><a class="dropdown-item" onclick="rhel()">RHEL LINUX</a></li>
+                    </ul>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link" onclick="certificate()">Certificate</a>
+            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://wa.me/9363097405">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Carousel start -->
+    <div class="main-banner" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="caption header-text">
+                        <h6 class="htitle">Dive With us</h6>
+                        <div class="line-dec"></div>
+                        <h4>Get on the <em>track,</em> <em>Never</em> look back</h4>
+                        <a class="btn" style="background-color: #fd9200; color: white;" href="services.html">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel end -->
+
+    <!-- Courses Start -->
+    <div class="container-fluid py-5" style="background-color: white; margin-top: -140px;">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px; color:#fd9200;">Courses</h5>
+                <h1>Our Popular Courses</h1><br>
+                <p class="text-primary text-uppercase mb-3" id="mobile" style="letter-spacing: 5px; color:#fd9200;">
+                    Swipe Right</p>
+            </div>
+            <div class="row courses-row" id="courses-row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img class="img-fluid card-img-top" src="img/aws.webp" alt="">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">AWS Cloud</h5>
+                            <a class="btn" style="background-color: #fd9200; color: white;" onclick="aws()">View
+                                Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img class="img-fluid card-img-top" src="img/data science.png" alt="">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Data Science</h5>
+                            <a class="btn" style="background-color: #fd9200; color: white;" onclick="ds()">View
+                                Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img class="img-fluid card-img-top" src="img/uiux.avif" alt="">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">UI/UX</h5>
+                            <a class="btn" style="background-color: #fd9200; color: white;" onclick="uiux()">View
+                                Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img class="img-fluid card-img-top" src="img/soc.png" alt="" style="height: 240px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ethical Hacking</h5>
+                            <a class="btn" style="background-color: #fd9200; color: white;"
+                                onclick="EthicalHacking()">View Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img class="img-fluid card-img-top" src="img/ccna.avif" alt="" style="height: 240px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">CCNA</h5>
+                            <a class="btn" style="background-color: #fd9200; color: white;" onclick="ccna()">View
+                                Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img class="img-fluid card-img-top" src="img/redhat.jpg" alt="" style="height: 240px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">RHEL LINUX</h5>
+                            <a class="btn" style="background-color: #fd9200; color: white;" onclick="rhel()">View
+                                Course</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->
+
+    <!--icons-->
+    <div class="icon-container">
+        <div class="icon-item">
+            <i class="fas fa-user-graduate"></i>
+            <span>20+ Students</span>
+        </div>
+        <div class="icon-item">
+            <i class="fas fa-briefcase"></i>
+            <span>Career Opportunities</span>
+        </div>
+        <div class="icon-item">
+            <i class="fas fa-credit-card"></i>
+            <span>EMI Available</span>
+        </div>
+        <div class="icon-item">
+            <i class="fas fa-user"></i>
+            <span>Supportive Team</span>
+        </div>
+    </div>
+    <!--icons end-->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" style="background-color: white;" id="about">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/about.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <div class="text-left mb-4">
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px; color:#fd9200;">About
+                            Us</h5>
+                        <h1>Innovative Way To Learn</h1>
+                    </div>
+                    <p>
+                        We are a group of friends dedicated to teaching IT job-related courses. Our focus is primarily
+                        on non-coding courses, although we do offer coding courses as well. Our mission is to enhance
+                        your computer skills and provide guidance to help you secure a job in the IT industry.
+
+                        We offer comprehensive placement assistance and are committed to improving your skills. Our team
+                        will also help you build an impressive LinkedIn profile and provide hands-on projects to further
+                        enhance your learning experience.
+
+                        Our platform is entirely online, ensuring that our mentors are available to support you 24/7. We
+                        also provide flexible EMI options for payment.
+
+                        <br><br>For more details, please feel free to contact us.
+                    </p>
+                    <a href="https://wa.me/9363097405" class="btn"
+                        style="background-color: #fd9200; color: white;">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    
+    <!-- Team start -->
+
+    <div class="projects section" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Meet our <em style="color: #fd9200;">Team</em></h2>
+                        <div class="line-dec" style="color: #fd9200;"></div>
+                        <p>Learn new technology with us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-features owl-carousel">
+                        <!-- Team Member 1 -->
+                        <div class="item">
+                            <img src="img/brownyy.jpg" alt="Jerose Browny">
+                            <div class="down-content">
+                                <h4>Browny</h4>
+                                <p class="m-0 text-muted">Network Engineer</p>
+                                <a
+                                    href="https://www.linkedin.com/in/brownyr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 2 -->
+                        <div class="item">
+                            <img src="img/barathi.jpg" alt="Bharathi Kannan">
+                            <div class="down-content">
+                                <h4>Bharathi</h4>
+                                <p class="m-0 text-muted">Cyber-Security</p>
+                                <a
+                                    href="https://www.linkedin.com/in/bharathi-kannan-a75a41260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 3 -->
+                        <div class="item">
+                            <img src="img/manishh.jpg" alt="Manish Yashwant">
+                            <div class="down-content">
+                                <h4>Manish</h4>
+                                <p class="m-0 text-muted">Data Scientist</p>
+                                <a
+                                    href="https://www.linkedin.com/in/manish-yashwant?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 4 -->
+                        <div class="item">
+                            <img src="img/david.jpg" alt="John David">
+                            <div class="down-content">
+                                <h4>John</h4>
+                                <p class="m-0 text-muted">UI/UX Designer</p>
+                                <a
+                                    href="https://www.linkedin.com/in/john-david-king?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 5 -->
+
+                        <div class="item">
+                            <img src="img/nobell.jpg" alt="Noble Rex">
+                            <div class="down-content">
+                                <h4>Noble</h4>
+                                <p class="m-0 text-muted">Cloud Engineer</p>
+                                <a
+                                    href="https://www.linkedin.com/in/noble-rex-aa766828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 6 -->
+                        <div class="item">
+                            <img src="img/sumaiyaa.jpg" alt="Sumaiya Sultan">
+                            <div class="down-content">
+                                <h4>Sumaiya</h4>
+                                <p class="m-0 text-muted">Data Scientist</p>
+                                <a
+                                    href="https://www.linkedin.com/in/sumaiya-sultan-1716a8228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--team end-->
+
+    <!-- Bootstrap JS (with Popper.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Team End -->
+
+    
+<!-- Testimonial Start -->
+<div class="container-fluid py-5" style="background-color: white;">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px; color: #fd9200;">Testimonial</h5>
+
+            <h1>What Our Students Say</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left mb-4" style="color: #fd9200;"></i>
+                        <h4 class="font-weight-normal mb-4">
+                            "I was looking to switch careers, and the courses on this platform helped me land my first job in tech. The instructors were knowledgeable, and the hands-on projects made all the difference. I can't thank this platform enough for boosting my confidence and skills!"
+                        </h4>
+                        <h5 class="m-0">Jerome</h5>
+                        <span>SOC analyts</span>
+                    </div>
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left mb-4" style="color: #fd9200;"></i>
+                        <h4 class="font-weight-normal mb-4">
+                            "The comprehensive curriculum and real-world applications offered by this platform truly set it apart. I especially appreciated the mentorship sessions, which provided invaluable insights into the industry. I completed my course and secured a position within three months!"
+                        </h4>
+                        <h5 class="m-0">Lifan</h5>
+                        <span>UI/UX</span>
+                    </div>
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left mb-4" style="color: #fd9200;"></i>
+                        <h4 class="font-weight-normal mb-4">
+                            "I had some basic coding knowledge but needed structured guidance. The interactive modules and community support were fantastic. I was able to build my portfolio and connect with potential employers through the platform's networking events. Highly recommended!"
+                        </h4>
+                        <h5 class="m-0">Shafrin Fathima</h5>
+                        <span>Network Engineer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Including necessary libraries -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $(".owl-carousel").owlCarousel({
+            items: 1, // Number of items to display
+            loop: true, // Infinite loop
+            autoplay: true, // Autoplay carousel
+            autoplayTimeout: 1000, // Delay between auto slides
+            dots: true, // Show dots navigation
+            nav: false // Hide next/prev buttons
+        });
+    });
+</script>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        style="background-color: #fd9200; border: 0;"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>&nbsp;&nbsp;Tamilnadu, India</p>
+                        <p><i class="fa fa-phone mr-2"></i>&nbsp;&nbsp;+91 93630 97405</p>
+                        <p><i class="fa fa-envelope mr-2"></i>&nbsp;&nbsp;surpassacademy@gmail.com</p>
+                        <p><i class="fab fa-instagram"></i>&nbsp;&nbsp;surpass_academy</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Courses</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" onclick="aws()"><i class="fa fa-angle-right mr-2"
+                                    style="cursor:pointer;"></i>AWS Cloud</a>
+                            <a class="text-white mb-2" onclick="ds()"><i class="fa fa-angle-right mr-2"></i>Data
+                                Science</a>
+                            <a class="text-white mb-2" onclick="uiux()"><i class="fa fa-angle-right mr-2"></i>UI/UX</a>
+                            <a class="text-white mb-2" onclick="EthicalHacking()"><i
+                                    class="fa fa-angle-right mr-2"></i>Ethical Hacking</a>
+                            <a class="text-white mb-2" onclick="ccna()"><i class="fa fa-angle-right mr-2"></i>CCNA</a>
+                            <a class="text-white" onclick="rhel()"><i class="fa fa-angle-right mr-2"></i>RHEL LINUX</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 mb-5">
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Sign Up</h5>
+                <p class="mb-4">Join our course and shine your life!</p>
+                <form id="signup-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                    </div><br>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email"
+                            placeholder="Your Email Address" required>
+                    </div><br>
+                    <div class="form-group">
+                        <input type="number" class="form-control" name="phone" id="phone" placeholder="Your Phone No"
+                            required>
+                    </div><br>
+                    <button type="submit" class="btn" style="background-color: #fd9200; color: white;">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row justify-content-center bg-dark"> <!-- Ensure this matches the footer background -->
+            <div class="col-lg-6 text-center mb-3 mb-md-0">
+                <p class="m-0 text-white">
+                    <a href="#" style="text-decoration: none; color: white;">Surpass &copy; </a> All Rights Reserved.
+                    Designed by Surpass Team
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--inter style-->
+
+    <style>
+        #whatsapp-chat-button {
+            position: fixed;
+            bottom: 20px;
+            /* Adjust distance from bottom */
+            left: 20px;
+            /* Adjust distance from left */
+            z-index: 1000;
+            /* Make sure the button is above other content */
+            background-color: #000000;
+            /* WhatsApp green color */
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            padding: 10px 25px;
+            text-decoration: none;
+            color: #fefefe;
+
+        }
+
+        #whatsapp-chat-button img {
+            width: 30px;
+            /* Icon size */
+            height: 30px;
+            /* Icon size */
+        }
+
+        /*testing*/
+
+
+        .owl-carousel {
+            display: none;
+            width: 100%;
+            -webkit-tap-highlight-color: transparent;
+            /* position relative and z-index fix webkit rendering fonts issue */
+            position: relative;
+            z-index: 1;
+        }
+
+        .owl-carousel .owl-stage {
+            position: relative;
+            -ms-touch-action: pan-Y;
+            touch-action: manipulation;
+            -moz-backface-visibility: hidden;
+            /* fix firefox animation glitch */
+        }
+
+        .owl-carousel .owl-stage:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+
+        .owl-carousel .owl-stage-outer {
+            position: relative;
+            overflow: hidden;
+            /* fix for flashing background */
+            -webkit-transform: translate3d(0px, 0px, 0px);
+        }
+
+        .owl-carousel .owl-wrapper,
+        .owl-carousel .owl-item {
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+        }
+
+        .owl-carousel .owl-item {
+            position: relative;
+            min-height: 1px;
+            float: left;
+            -webkit-backface-visibility: hidden;
+            -webkit-tap-highlight-color: transparent;
+            -webkit-touch-callout: none;
+        }
+
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 100%;
+        }
+
+        .owl-carousel .owl-nav.disabled,
+        .owl-carousel .owl-dots.disabled {
+            display: none;
+        }
+
+        .owl-carousel .owl-nav .owl-prev,
+        .owl-carousel .owl-nav .owl-next,
+        .owl-carousel .owl-dot {
+            cursor: pointer;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .owl-carousel .owl-nav button.owl-prev,
+        .owl-carousel .owl-nav button.owl-next,
+        .owl-carousel button.owl-dot {
+            background: none;
+            color: inherit;
+            border: none;
+            padding: 0 !important;
+            font: inherit;
+        }
+
+        .owl-carousel.owl-loaded {
+            display: block;
+        }
+
+        .owl-carousel.owl-loading {
+            opacity: 0;
+            display: block;
+        }
+
+        .owl-carousel.owl-hidden {
+            opacity: 0;
+        }
+
+        .owl-carousel.owl-refresh .owl-item {
+            visibility: hidden;
+        }
+
+        .owl-carousel.owl-drag .owl-item {
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .owl-carousel.owl-grab {
+            cursor: move;
+            cursor: grab;
+        }
+
+        .owl-carousel.owl-rtl {
+            direction: rtl;
+        }
+
+        .owl-carousel.owl-rtl .owl-item {
+            float: right;
+        }
+
+        /* No Js */
+        .no-js .owl-carousel {
+            display: block;
+        }
+
+        /*
+ *  Owl Carousel - Animate Plugin
+ */
+        .owl-carousel .animated {
+            animation-duration: 1000ms;
+            animation-fill-mode: both;
+        }
+
+        .owl-carousel .owl-animated-in {
+            z-index: 0;
+        }
+
+        .owl-carousel .owl-animated-out {
+            z-index: 1;
+        }
+
+        .owl-carousel .fadeOut {
+            animation-name: fadeOut;
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        /*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+        .owl-height {
+            transition: height 500ms ease-in-out;
+        }
+
+        /*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+        .owl-carousel .owl-item {
+            /**
+			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+			calculation of the height of the owl-item that breaks page layouts
+		 */
+        }
+
+        .owl-carousel .owl-item .owl-lazy {
+            opacity: 0;
+            transition: opacity 400ms ease;
+        }
+
+        .owl-carousel .owl-item .owl-lazy[src^=""],
+        .owl-carousel .owl-item .owl-lazy:not([src]) {
+            max-height: 0;
+        }
+
+        .owl-carousel .owl-item img.owl-lazy {
+            transform-style: preserve-3d;
+        }
+
+        /*
+ * 	Owl Carousel - Video Plugin
+ */
+        .owl-carousel .owl-video-wrapper {
+            position: relative;
+            height: 100%;
+            background: #000;
+        }
+
+        .owl-carousel .owl-video-play-icon {
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            left: 50%;
+            top: 50%;
+            margin-left: -40px;
+            margin-top: -40px;
+            background: url("owl.video.play.png") no-repeat;
+            cursor: pointer;
+            z-index: 1;
+            -webkit-backface-visibility: hidden;
+            transition: transform 100ms ease;
+        }
+
+        .owl-carousel .owl-video-play-icon:hover {
+            -ms-transform: scale(1.3, 1.3);
+            transform: scale(1.3, 1.3);
+        }
+
+        .owl-carousel .owl-video-playing .owl-video-tn,
+        .owl-carousel .owl-video-playing .owl-video-play-icon {
+            display: none;
+        }
+
+        .owl-carousel .owl-video-tn {
+            opacity: 0;
+            height: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transition: opacity 400ms ease;
+        }
+
+        .owl-carousel .owl-video-frame {
+            position: relative;
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+        }
+
+        nav .a {
+            cursor: pointer;
+        }
+
+        nav .li {
+            cursor: pointer;
+        }
+
+        /* Apply pointer cursor for all links in the navbar */
+        .navbar-nav .nav-link,
+        .navbar-nav .dropdown-item {
+            cursor: pointer;
+        }
+
+        /* Apply pointer cursor to all clickable links and buttons */
+        .text-white,
+        .btn,
+        .btn-outline-light {
+            cursor: pointer;
+        }
+
+        .text-white a {
+            cursor: pointer;
+        }
+
+        /* Style the modal */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1000;
+            /* Bring the modal to the front */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black with opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            /* Center the modal */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            /* Could be more or less, depending on screen size */
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        /* Close button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Button Style */
+        .btn {
+            padding: 10px 20px;
+            background-color: #fd9200;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #ffb732;
+        }
+
+
+        /* General styling for the courses container */
+        .courses-row {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            overflow-x: scroll;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            /* Smooth scrolling for iOS */
+        }
+
+        /* Mobile view only: Keep horizontal scrolling/slider */
+        @media (max-width: 768px) {
+            .courses-row {
+                display: block;
+                white-space: nowrap;
+            }
+
+            .courses-row .col-lg-4 {
+                display: inline-block;
+                margin-right: 20px;
+                /* Space between cards */
+            }
+        }
+    </style>
+
+
+    <!-- Scripts -->
+
+    <!-- JavaScript for manual swipe functionality -->
+    <script>
+        const coursesRow = document.getElementById('courses-row');
+        let startTouchX = 0;
+        let endTouchX = 0;
+
+        // Detect touch start
+        coursesRow.addEventListener('touchstart', (e) => {
+            startTouchX = e.touches[0].clientX; // Store the initial touch position
+        });
+
+        // Detect touch end
+        coursesRow.addEventListener('touchend', (e) => {
+            endTouchX = e.changedTouches[0].clientX; // Store the final touch position
+
+            if (startTouchX > endTouchX) {
+                // Swipe Left: Scroll to next item
+                coursesRow.scrollBy({ left: 200, behavior: 'smooth' });
+            } else if (startTouchX < endTouchX) {
+                // Swipe Right: Scroll to previous item
+                coursesRow.scrollBy({ left: -200, behavior: 'smooth' });
+            }
+        });
+    </script>
+
+
+    <script type="text/javascript">
+
+        // Make sure to initialize EmailJS with your actual User ID
+        emailjs.init("h7EuN3UJN8A7-o32L");  // Replace with your actual User ID
+
+        // Handle form submission
+        document.getElementById("signup-form").addEventListener("submit", function (event) {
+            event.preventDefault();  // Prevent default form submission
+
+            // Collect form data
+            var formData = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                phone: document.getElementById("phone").value
+            };
+
+            // Send the email via EmailJS
+            emailjs.send("service_jq31k19", "template_rctb0tf", formData)
+                .then(function (response) {
+                    console.log("SUCCESS", response);
+                    alert("Email sent successfully!");
+                }, function (error) {
+                    console.log("FAILED", error);
+                    alert("Oops! Something went wrong.");
+                });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // You can add any extra JavaScript functionality here if needed.
+        });
+
+    </script>
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        function showAlert() {
+            alert("Thank you for your Interest!");
+            return true; // Allow form submission
+        }
+
+        // Show button on scroll
+        window.onscroll = function () {
+            const button = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.classList.add('show');
+            } else {
+                button.classList.remove('show');
+            }
+        };
+
+        // Scroll to top when the button is clicked
+        document.querySelector('.back-to-top').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        function aws() {
+            window.location.href = "aws.html"; // Replace with your target URL
+        }
+
+        function ds() {
+            window.location.href = "Data science.html"; // Replace with your target URL
+        }
+
+        function uiux() {
+            window.location.href = "UIUX.html"; // Replace with your target URL
+        }
+
+        function EthicalHacking() {
+            window.location.href = "SOC.html"; // Replace with your target URL
+        }
+
+        function ccna() {
+            window.location.href = "CCNA.html"; // Replace with your target URL
+        }
+
+        function rhel() {
+            window.location.href = "RHEL.html"; // Replace with your target URL
+        }
+
+        function certificate() {
+            window.location.href = "certificateretrive.php"; // Replace with your target URL
+        }
+
+        function home() {
+            window.location.href = "index.html"; // Replace with your target URL
+        }
+    </script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

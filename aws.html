@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Surpass</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="background-color: white;">
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/9363097405" target="_blank" id="whatsapp-chat-button">
+        <img src="img/whatsapp.png" alt="Chat with us on WhatsApp" />&nbsp;&nbsp;Chat with us
+    </a>
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+        <a class="navbar-brand" href="#">
+            <img src="img/wordmark2.png" alt="Logo" style="height: 30px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" onclick="home()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" onclick="aws()">AWS Cloud</a></li>
+                        <li><a class="dropdown-item" onclick="ds()">Data Science</a></li>
+                        <li><a class="dropdown-item" onclick="uiux()">UI/UX</a></li>
+                        <li><a class="dropdown-item" onclick="EthicalHacking()">Ethical Hacking</a></li>
+                        <li><a class="dropdown-item" onclick="ccna()">CCNA</a></li>
+                        <li><a class="dropdown-item" onclick="rhel()">RHEL LINUX</a></li>
+                    </ul>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link" onclick="certificate()">Certificate</a>
+            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://wa.me/9363097405">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    <br><br>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 mb-5" style="background-color: white;">
+        <div class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="min-height: 400px; position: relative; display: flex;">
+                    <div class="course-info" style="flex: 1; padding: 50px;">
+                        <h1 class="display-8 text-dark mb-md-4">AWS Cloud</h1>
+                        <p class="text-dark mb-4 para">Unlock the power of cloud computing with our AWS Cloud course!
+                            Designed for beginners and experienced professionals alike, this course provides a
+                            comprehensive introduction to Amazon Web Services (AWS), the leading cloud platform in the
+                            industry.</p>
+
+                        <p class="text-dark"><strong>Duration:</strong> 8 Weeks</p>
+                        <!--<p class="text-dark"><strong>Fees:</strong> $499</p>-->
+                        <p class="text-dark"><strong>Language:</strong> Tamil</p>
+
+                        <a href="https://wa.me/9363097405" class="btn"
+                            style="background-color: #fd9200; color: white;">I'm Interested</a>
+                        <!-- Update with your WhatsApp number -->
+                        &nbsp;&nbsp;
+                        <a href="https://wa.me/9363097405" style="font-size: small;">Financial aid available</a>
+
+                        <!-- Small Course Image Below the Buttons -->
+                        <div class="mt-3 course-img">
+                            <img src="img/aws.webp" alt="Course Image"
+                                style="width: 50%; height: auto; object-fit: cover; border-radius: 20px;">
+                        </div>
+                    </div>
+                    <div class="course-image" style="flex: 1;">
+                        <img src="img/wallpaper.png" alt="Course Image"
+                            style="width: 100%; height: auto; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 module">
+        <h2 class="text-center mb-4">What We Cover</h2>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="accordion" id="moduleAccordion">
+                    <!-- Module 1 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    <span>Module 1: Compute Services</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="moduleOne"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - EC2: Virtual servers in the cloud.<br>
+                                - Lambda: Serverless computing for running code.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 2 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <span>Module 2: Storage Solutions</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="moduleTwo"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - S3: Object storage for data and files.<br>
+                                - EFS: Scalable file storage for EC2.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 3 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>Module 3: Networking & Content Delivery</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="moduleThree"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - VPC: Create secure cloud networks.<br>
+                                - CloudFront: Fast content delivery across the globe.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 4 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span>Module 4: Load Balancing & Scaling</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="moduleFour"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - ELB: Distribute traffic to multiple servers.<br>
+                                - ASG: Automatically scale your application.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 5 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <span>Module 5: Messaging & Notifications</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="moduleFive"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - SNS: Send notifications to users.<br>
+                                - SQS: Message queuing for decoupling services.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 6 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleSix">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                                    aria-expanded="false" aria-controls="collapseSix">
+                                    <span>Module 6: Database Services</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="moduleSix"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - RDS: Managed relational databases.<br>
+                                - DynamoDB: Fast NoSQL database service.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 7 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleSeven">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <span>Module 7: Monitoring & Management</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="moduleSeven"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - CloudWatch: Monitor resources and applications.<br>
+                                - IAM: Manage user access and permissions.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 8 -->
+                    <div class="card">
+                        <div class="card-header" id="moduleEight">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    <span>Module 8: Development & Deployment Tools</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="moduleEight"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - CloudFormation: Manage AWS resources with code.<br>
+                                - EventBridge: Integrate applications using events.<br>
+                                - Migration & Snowball: Tools for moving data to AWS.<br>
+                                - Elastic Beanstalk: Easy app deployment and management.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects -->
+                    <div class="card">
+                        <div class="card-header" id="moduleSeven">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <span>Projects</span>
+                                    <span>+</span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="moduleSeven"
+                            data-parent="#moduleAccordion">
+                            <div class="card-body">
+                                - Mini Project<br>
+                                - Main Project
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="text-center mt-4 pdf">
+                        <a href="your-pdf-link.pdf" class="btn btn-primary" style="background-color: #fd9200; border-color: #fd9200;">Download Syllabus</a>
+                    </div>-->
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="text-center mb-4">
+
+
+                    <div class="mt-4">
+                        <h4 class="mt-3">Certificate Preview</h4>
+                        <img src="img/demo certificate.png" alt="Certificate Demo"
+                            style="width: 100%; max-width: 300px; border-radius: 10px;">
+                        <h6 class="mt-3">Category</h6>
+                        <div class="d-flex justify-content-center">
+                            <span class="badge bg text-white mx-1" style="background-color: #fd9200;">Beginner</span>
+                            <span class="badge bg text-white mx-1"
+                                style="background-color: #fd9200;">Intermediate</span>
+                            <span class="badge bg text-white mx-1"
+                                style="background-color: #fd9200;">Professional</span>
+                        </div>
+
+                        <div class="mt-4">
+                            <!-- Styled Button to Trigger PDF Download -->
+                             <img src="assets/images/pdf.png" width="200px" height="250px"><br><br>
+                            <button class="btn-custom" onclick="downloadPDF()">Download Brochure</button>
+                        </div>
+            
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Placement Assistance Section Start -->
+    <div class="container py-5 placement">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+                <h2 class="text-dark mb-4 placement">Placement Assistance</h2>
+                <p class="text-dark mb-4">
+                    "We do not offer guarantees like some institutions; however, we are committed to assisting you in
+                    your job search. Our dedicated team is here to provide you with the necessary resources and support
+                    to enhance your employability and connect you with potential employers."
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- Placement Assistance Section End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        style="background-color: #fd9200; border: 0;"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>&nbsp;&nbsp;Tamilnadu, India</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>&nbsp;&nbsp;+91 93630 97405</p>
+                        <p><i class="fa fa-envelope mr-2"></i>&nbsp;&nbsp;surpassacademy@gmail.com</p>
+                        <p><i class="fab fa-instagram"></i>&nbsp;&nbsp;surpass_academy</p>
+                        
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Courses</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" onclick="aws()"><i class="fa fa-angle-right mr-2"
+                                    style="cursor:pointer;"></i>AWS Cloud</a>
+                            <a class="text-white mb-2" onclick="ds()"><i class="fa fa-angle-right mr-2"></i>Data
+                                Science</a>
+                            <a class="text-white mb-2" onclick="uiux()"><i class="fa fa-angle-right mr-2"></i>UI/UX</a>
+                            <a class="text-white mb-2" onclick="EthicalHacking()"><i
+                                    class="fa fa-angle-right mr-2"></i>Ethical Hacking</a>
+                            <a class="text-white mb-2" onclick="ccna()"><i class="fa fa-angle-right mr-2"></i>CCNA</a>
+                            <a class="text-white" onclick="rhel()"><i class="fa fa-angle-right mr-2"></i>RHEL LINUX</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 mb-5">
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Sign Up</h5>
+                <p class="mb-4">Join our course and shine your life!</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div><br>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email Address" required>
+                    </div><br>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Your Phone No" required>
+                    </div><br>
+                    <button class="btn" style="background-color: #fd9200; color: white;">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row justify-content-center bg-dark"> <!-- Ensure this matches the footer background -->
+            <div class="col-lg-6 text-center mb-3 mb-md-0">
+                <p class="m-0 text-white">
+                    <a href="#" style="text-decoration: none; color: white;">Surpass &copy; </a> All Rights Reserved.
+                    Designed by Surpass Team
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // You can add any extra JavaScript functionality here if needed.
+        });
+
+        // Show button on scroll
+        window.onscroll = function () {
+            const button = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.classList.add('show');
+            } else {
+                button.classList.remove('show');
+            }
+        };
+
+        // Scroll to top when the button is clicked
+        document.querySelector('.back-to-top').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        function aws() {
+            window.location.href = "aws.html"; // Replace with your target URL
+        }
+
+        function ds() {
+            window.location.href = "Data science.html"; // Replace with your target URL
+        }
+
+        function uiux() {
+            window.location.href = "UIUX.html"; // Replace with your target URL
+        }
+
+        function EthicalHacking() {
+            window.location.href = "SOC.html"; // Replace with your target URL
+        }
+
+        function ccna() {
+            window.location.href = "CCNA.html"; // Replace with your target URL
+        }
+
+        function rhel() {
+            window.location.href = "RHEL.html"; // Replace with your target URL
+        }
+
+        function certificate() {
+            window.location.href = "certificateretrive.php"; // Replace with your target URL
+        }
+
+        function home() {
+            window.location.href = "index.html"; // Replace with your target URL
+        }
+
+        window.onscroll = function () { stickyNavbar() };
+
+        var navbar = document.querySelector(".navbar");
+        var sticky = navbar.offsetTop;
+
+        function stickyNavbar() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+
+            function certificate() {
+                window.location.href = "certificateretrive.php"; // Replace with your target URL
+            }
+
+            function home() {
+                window.location.href = "index.html"; // Replace with your target URL
+            }
+        }
+    </script>
+
+    <style>
+        #whatsapp-chat-button {
+            position: fixed;
+            bottom: 20px;
+            /* Adjust distance from bottom */
+            left: 20px;
+            /* Adjust distance from left */
+            z-index: 1000;
+            /* Make sure the button is above other content */
+            background-color: #000000;
+            /* WhatsApp green color */
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            padding: 10px 25px;
+            text-decoration: none;
+            color: #fefefe;
+
+        }
+
+        #whatsapp-chat-button img {
+            width: 30px;
+            /* Icon size */
+            height: 30px;
+            /* Icon size */
+        }
+    </style>
+    <style>
+        .accordion .card {
+            border: 2px dashed #fd9200;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        .accordion .btn-link {
+            color: #fd9200;
+            font-weight: bold;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .accordion .card-body {
+            background-color: #f8f9fa;
+            text-align: left;
+        }
+
+        /* Sticky Navbar */
+        .navbar {
+            position: relative;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: top 0.5s;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+        }
+
+        /* Apply pointer cursor for all links in the navbar */
+        .navbar-nav .nav-link,
+        .navbar-nav .dropdown-item {
+            cursor: pointer;
+        }
+
+        /* Apply pointer cursor to all clickable links and buttons */
+        .text-white,
+        .btn,
+        .btn-outline-light {
+            cursor: pointer;
+        }
+
+        .text-white a {
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .course-image img {
+                visibility: hidden;
+            }
+
+            .course-img {
+                width: 530px;
+            }
+
+            .text-dark,
+            .text-muted {
+                font-size: 0.9rem;
+                /* Adjust font size for mobile */
+            }
+
+            .para {
+                width: 290px;
+                text-align: left;
+                padding: 5px;
+                justify-content: center;
+                margin-left: -8px;
+            }
+
+            .module {
+                position: relative;
+                top: -100px;
+            }
+
+            .pdf {
+                padding: 20px;
+            }
+
+            .placement {
+                margin-top: -60px;
+            }
+
+
+
+            .badge {
+                margin-top: 10px;
+            }
+
+            .display-8 {
+                font-size: xx-large;
+                font-weight: bold;
+            }
+
+            .placement {
+                font-size: x-large;
+            }
+        }
+    </style>
+
+    <!-- CSS Styling for Button -->
+<style>
+    .btn-custom {
+        background-color: #fd9200;  /* Main Color */
+        color: white;               /* White text color */
+        font-size: 16px;            /* Adjust font size */
+        padding: 12px 24px;         /* Button padding */
+        border: none;              /* Remove border */
+        border-radius: 8px;        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+        cursor: pointer;           /* Pointer cursor on hover */
+        transition: all 0.3s ease;  /* Smooth transition for hover effect */
+    }
+
+    .btn-custom:hover {
+        background-color: #e58a00;  /* Darker shade on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
+    }
+
+    .btn-custom:focus {
+        outline: none;  /* Remove outline on click */
+    }
+</style>
+
+<!-- JavaScript for Button Action (PDF Download) -->
+<script>
+    function downloadPDF() {
+        // Create an anchor element
+        var link = document.createElement('a');
+        
+        // Set the link's href to the PDF file
+        link.href = 'sample.pdf';  // Replace with the actual path to your PDF
+        
+        // Set the download attribute with a default filename
+        link.download = 'brochure.pdf';  // You can set your desired file name
+        
+        // Append the link to the document, trigger the download, then remove the link
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+</script>
+
+
+
+</body>
+
+</html>
