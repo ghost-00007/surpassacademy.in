@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white; /* Set body background to white */
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: center; /* Center items horizontally */
+}
+
+.icon-item {
+  text-align: center;
+  margin: 10px; /* Margin for spacing */
+  flex: 1 1 150px; /* Allow items to grow and shrink, with a base width */
+  max-width: 200px; /* Optional: sets a max width for each item */
+}
+
+.icon-item i {
+  font-size: 40px; /* Icon size */
+  color: #fd9200; /* Change color to #fd9200 */
+}
+
+.icon-item span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white; /* Card background color */
+  overflow: hidden; /* Prevents overflow on hover */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.card-img-top {
+  padding: 10px; /* Padding around the image */
+  transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.card-body {
+  text-align: center; /* Center text within the card */
+}
+
+.card-title {
+  margin: 15px 0; /* Space between title and button */
+}
+
+/* Optional: Add shadow for the card */
+.shadow-sm {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Team Section */
+.container-fluid {
+  background-color: #f8f9fa; /* Light gray background for contrast */
+}
+
+.team-item {
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  overflow: hidden; /* Prevent overflow on hover */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.team-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.team-img {
+  position: relative;
+}
+
+.team-img img {
+  transition: transform 0.3s ease; /* Smooth transition for image zoom */
+  border-bottom: 4px solid #fd9200; /* Use #fd9200 as border color */
+}
+
+.team-item:hover .team-img img {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.team-social {
+  margin-top: 15px; /* Space above social icons */
+}
+
+.team-social .btn {
+  border: none; /* No border for buttons */
+  background-color: rgba(0, 0, 0, 0.8); /* Light background for buttons */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  color: #fff; /* Button text color */
+}
+
+/* Background styles for team member details */
+.bg-secondary {
+  background-color: #ffffff; /* Background for name and role */
+  color: #000; /* Change text color to black for visibility */
+  padding: 20px; /* Padding for content */
+}
+
+.bg-secondary h5 {
+  margin: 0; /* No margin for name */
+  font-weight: bold; /* Bold name */
+}
+
+.bg-secondary p {
+  margin: 0; /* No margin for role */
+  font-size: 0.9rem; /* Slightly smaller font for role */
+}
+
+.back-to-top {
+  position: fixed; /* Make it fixed */
+  bottom: 20px;    /* Distance from the bottom */
+  right: 20px;     /* Distance from the right */
+  z-index: 1000;   /* Ensure it's above other elements */
+  display: none;   /* Hide by default, show with JS if needed */
+}
+
+.back-to-top.show {
+  display: block;  /* Show when needed */
+}
+
+h5.text-primary {
+  color: #fd9200 !important;
+}
+
+#mobile{
+  color:#fd9200
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .team-item {
+    margin-bottom: 20px; /* Space between items on small screens */
+  }
+}
+
+
+
+
+
+
+
+/* Mobile view only: Apply horizontal scrolling/slider animation */
+@media (max-width: 768px) {
+  .courses-row {
+      overflow-x: hidden;
+      display: block;
+      white-space: nowrap;
+  }
+
+  .courses-row .col-lg-4 {
+      display: inline-block;
+      margin-right: 20px; /* Space between cards */
+      animation: slide 20s linear infinite;
+  }
+}
+
